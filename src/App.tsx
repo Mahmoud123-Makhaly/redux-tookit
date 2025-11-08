@@ -1,4 +1,13 @@
+import Navbar from "./components/Navbar";
+import Products from "./components/Products";
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <Navbar />
+      <Products />
+    </div>
+  );
 };
+
 export default App;
